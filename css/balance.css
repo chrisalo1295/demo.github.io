@@ -1,0 +1,42 @@
+
+.gradient-custom {
+  /* fallback for old browsers
+  background: #6a11cb;*/
+  
+  /* Chrome 10-25, Safari 5.1-6 
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));*/
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: linear-gradient(rgba(146, 102, 21, 0.8),rgba(148, 117, 117, 0.664)), url('../image/cash.jpg');
+      background-size: cover;
+      height: 100vh;
+      object-fit: cover;
+  }
+  h2 { 
+      font-family: 'Open Sans' , sans-serif;
+      font-size: 40px;
+      font-weight: 600;
+      color: white;
+      margin-top: 5%;
+      text-align: center;
+      text-transform: uppercase;
+  }
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color:yellow;
+  }
+  input[type=text], input[type=password], input[type=email], input[type=date], textarea {  
+    /*width: 100%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: #f1f1f1;*/
+    width:100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    color:white ;
+  }
